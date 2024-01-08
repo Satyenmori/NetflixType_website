@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: auto;
+    padding-left: 80px;
+    padding-top: 50px;
+    background-color: lightgray;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.card{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #f4f4f4;
+    height: 300px;
+    border-radius: 12px;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+img{
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;    
+
+}
+h2{
+    height: 70px;
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #37475a;
+}
+.card-conent{
+    padding: 10px 25px;
+}
+p{
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+h3{
+    color: rgb(17, 14, 14);
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 5px;
+    background-color: rgb(184, 176, 176);
+    color: white;
+}
+.btn:hover{
+    background-color: red;
+}
+
+.footer1{
+    height: 40px;    
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;     
+}
+
+.footer3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGxb8A7Ra_XhFcf845bg1ksefJliQSTlVsmA&usqp=CAU");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+
+.footer4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyrights{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
